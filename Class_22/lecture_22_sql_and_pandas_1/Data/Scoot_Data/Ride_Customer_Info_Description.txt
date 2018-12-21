@@ -1,0 +1,20 @@
+Date Range			09/20/15 to 11/21/15
+ride_id				unique identifer for each ride
+trip_time			the duration (minutes) for the ride
+trip_dist			the distance (miles) for the ride
+plan_id				4 types: Go, Intro, Intro_Pro, Other (see image below)
+hr_start			the hour of the day that the ride started (0-23) (local time - PT)
+dow					day of the week that the ride started (0 = Monday and 6 = Sunday)
+time_slot			0: 8pm to 4:59am
+					1: 5am to 9:59am
+					2: 10am to 2:59pm
+					3: 4pm to 6:59pm"
+batt_perc			battery percentage at the start of the ride (0 to 1, where 1 = 100%)
+dist_h				distance from where the person opened the app tod the location of where the selected vehicle was parked
+price				cost of the trip (dollars)
+start_location_id	Scoot's location id of where the ride started
+lat					latitude of the starting location
+lng					longitude of the starting location
+end_location_id		Scoot's location id of where the ride ended
+lat					latitude of the ending location
+lng					longitude of the ending location			
